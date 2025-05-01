@@ -55,7 +55,6 @@ The app does **not require any OAuth** or user login because:
 │   └── album_cache.json        # Locally cached general album info (to lessen the number of API calls used every reload)
 ├── scheduled_runs    
 │   └── generate_album_cache.py # Script to update album cache via Spotify API
-├── service_account_credentials.json    # (ignored by default)
 ```
 
 ---
