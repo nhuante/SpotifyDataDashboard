@@ -18,7 +18,8 @@ import os
 
 # Set up Google Sheets API scopes
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly', 'https://www.googleapis.com/auth/drive.readonly']
-SERVICE_ACCOUNT_FILE = "data\service-account-key.json"
+SERVICE_ACCOUNT_FILE = os.path.join("data", "service-account-key.json")
+
 # # Spotify API Keys
 # SPOTIPY_CLIENT_ID = "a118665aaffa47508939659b9ecd2227"
 # SPOTIPY_CLIENT_SECRET = "4522956332f94a519f7b85edeee44b96"
@@ -565,7 +566,7 @@ def server(input, output, session):
     @render.ui
     def top_albums_ui():
         selected_year = int(input.year_select())
-        cache_file = "data\cached_top_albums.json"
+        cache_file = os.path.join("data", "cached_top_albums.json")
 
         # check if the JSON exists
         if not os.path.exists(cache_file):

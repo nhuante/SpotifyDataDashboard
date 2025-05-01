@@ -11,6 +11,13 @@ My personal Shiny dashboard built in Python to visualize my own Spotify listenin
 
 Think of this project as my own personal version of Spotify Wrapped, except it is year-round! I get to see my monthly progress and customize which stats I want to see. Visit the site now to see my music stats in real-time! (except for the top albums those are cached once a week).
 
+As a note: This documentation is meant both for an external audience and to keep track of important important for myself as I continue to implement new features here and there. Hence, why I include instructions about running locally and deployig (although you could fork and update this to use your own listening history!)
+
+## Author
+
+Built with lurv by **@natalie** - designed to bring my (and maybe your) listening habits to life. Also, I am a data nerd, so I love to see my stats in just about anything. 
+
+
 
 ---
 
@@ -117,11 +124,36 @@ If you are familiar with programming, you can also:
 - Add more stats (e.g. top genres, listening streaks)
 - Integrate with other data sources 
 
+## Deploying
+
+1. Log in to shinyapps.io (You'll need your own account if you've forked). You will prompted for your account name, token, and secret. Get these from shinyapps.io -> account -> tokens. Note that if this errors in shell, try running all on a single line with the \ characters.
+```bash
+rsconnect add --name shinyapps \
+              --server shinyapps.io \
+              --account YOUR_ACCOUNT_NAME \
+              --token YOUR_TOKEN \
+              --secret YOUR_SECRET
+```
+2. Deploy! Replace --app-name with the actual name of your app. This command will package all the files, install any dependencies, upload, and launch your app on shinyapps.io. 
+```bash
+rsconnect deploy shiny --app-name your-app-name app:app
+```
+3. To redeploy later (after pushing updates)
+```bash
+rsconnect deploy shiny . --name account-name --title my-music-dashboard
+```
 ---
 
 ### How To Automate the Top Albums Caching:
 
-## Author
 
-Built with lurv by **@natalie** - designed to bring my (and maybe your) listening habits to life. Also, I am a data nerd, so I love to see my stats in just about anything. 
+## A Note on Credentials / How Shiny Deploys
 
+You do not need to push credential files to the repo. In fact, you really shouldn't share that with the public! Keep it locally. When you deploy, shiny will package up your app (including the credentials file you have stored locally), send it to shinyapp.io, and that is what runs the app. 
+
+So, you only need it present locally when you deploy. Visitors to the site don't need it when they hit reload since the deplyoed app is already authenticated. 
+
+
+### Thing To Add List
+* Automate updates to `cached_top_albums.json`
+* Add a "Last Updated" timestamp for the albums

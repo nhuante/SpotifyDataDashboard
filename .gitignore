@@ -9,6 +9,7 @@ credentials.json
 service-account-key.json
 spotify_auth_test.py
 my_spotify_credentials.txt
+my_shiny_credentials.txt
 
 # Spotipy cache
 .cache/
