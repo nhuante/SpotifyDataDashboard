@@ -1,0 +1,17 @@
+
+# Python 
+__pycache__/
+*.pyc 
+
+# Auth files
+token.pickle
+credentials.json
+service-account-key.json
+spotify_auth_test.py
+
+# Spotipy cache
+.cache/
+.cache-*
+
+# VSCode settings (optional)
+.vscode/
