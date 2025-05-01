@@ -21,9 +21,12 @@ OUTPUT_FILE = "..\data\cached_top_albums.json"
 SERVICE_ACCOUNT_FILE = "..\data\service-account-key.json"
 SHEET_QUERY = "Test_SpotifyData"  # Matches name of all IFTTT sheets
 
+# get client id and secret from secret file 
+secret_file = open("my_spotify_credentials.txt", "r")
+secret_file_rows = secret_file.readlines()
 # my spotify api keys
-SPOTIPY_CLIENT_ID = "a118665aaffa47508939659b9ecd2227"
-SPOTIPY_CLIENT_SECRET = "4522956332f94a519f7b85edeee44b96"
+SPOTIPY_CLIENT_ID = secret_file_rows[0]
+SPOTIPY_CLIENT_SECRET = secret_file_rows[1]
 SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8000/"
 
 # load all of the ifttt logged spotify sheet from my google drive (uses a service account with view permissions 

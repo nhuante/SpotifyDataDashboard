@@ -8,10 +8,12 @@ token.pickle
 credentials.json
 service-account-key.json
 spotify_auth_test.py
+my_spotify_credentials.txt
 
 # Spotipy cache
 .cache/
 .cache-*
+.cache
 
 # VSCode settings (optional)
 .vscode/
