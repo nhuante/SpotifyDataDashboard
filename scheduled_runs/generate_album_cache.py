@@ -9,6 +9,7 @@ import json
 import time
 import os
 from datetime import datetime
+import pytz
 
 ''' THIS FILE WILL BE RAN LOCALLY AT A SCHEDULED TIME TO UPDATE THE CACHED TOP ALBUMS. 
     WHEN ANYONE ACCESSES THE DEPLOYED SITE, IT SHOULD REFERENCE THESE CACHED VALUES TO 
@@ -145,8 +146,12 @@ final = [album_info_map[name] for name, _ in top_albums]
 
 # === write this info to the top albums cache ===
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+# get PCT time 
+pacific = pytz.timezone("America/Los_Angeles")
+now_pacific = datetime.now(pacific)
+
 cache_data = {
-    "last_updated": datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'),
+    "last_updated": now_pacific.strftime('%Y-%m-%d %I:%M %p %Z PCT'),
     "albums": final
 }
 with open(OUTPUT_FILE, 'w') as f:
