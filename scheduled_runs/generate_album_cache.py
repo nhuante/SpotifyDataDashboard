@@ -22,8 +22,8 @@ import os
 # === config stuff ===
 # for cached top albums 
 YEAR = 2025
-OUTPUT_FILE = "..\data\cached_top_albums.json"
-SERVICE_ACCOUNT_FILE = "..\data\service-account-key.json"
+OUTPUT_FILE = os.path.join("data", "cached_top_albums.json")
+SERVICE_ACCOUNT_FILE = os.path.join("data", "service-account-key.json")
 SHEET_QUERY = "Test_SpotifyData"  # Matches name of all IFTTT sheets
 
 # get client id and secret from secret file 
