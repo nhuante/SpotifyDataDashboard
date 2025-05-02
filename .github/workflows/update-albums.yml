@@ -26,6 +26,10 @@ jobs:
       - name: 📦 Install dependencies
         run: pip install -r requirements.txt
 
+      - name: 🔐 Write Google service account key to file (temporarily)
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service-account-key.json
+
+
       - name: 🚀 Run album cache generator
         run: python scheduled_runs/generate_album_cache.py
 
