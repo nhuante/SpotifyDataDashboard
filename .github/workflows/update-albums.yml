@@ -36,3 +36,8 @@ jobs:
           git add data/cached_top_albums.json
           git commit -m "🔄 Auto-update top album cache"
           git push
+
+      - name: 🚀 Deploy to shinyapps.io
+        run: |
+          rsconnect add --name "${{ secrets.SHINYAPPS_NAME }}" --account "${{ secrets.SHINYAPPS_ACCOUNT }}" --server shinyapps.io --token "${{ secrets.SHINYAPPS_TOKEN }}" --secret "${{ secrets.SHINYAPPS_SECRET }}"
+          rsconnect deploy shiny . --name "${{ secrets.SHINYAPPS_ACCOUNT }}" --title my-music-dashboard
