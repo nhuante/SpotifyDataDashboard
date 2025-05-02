@@ -34,12 +34,14 @@ jobs:
         run: python scheduled_runs/generate_album_cache.py
 
       - name: ✅ Commit & push updated cache
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "nat-bot"
+          git config user.email "nat-bot@users.noreply.github.com"
           git add data/cached_top_albums.json
-          git commit -m "🔄 Auto-update top album cache"
-          git push
+          git commit -m "🔄 Auto-update top album cache" || echo "Nothing to commit"
+          git push https://nat-bot:${GH_PAT}@github.com/nhuante/SpotifyDataDashboard.git HEAD:main
 
       - name: 🚀 Deploy to shinyapps.io
         run: |
