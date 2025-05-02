@@ -27,12 +27,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 🚀 Run album cache generator
-        run: python generate_album_cache.py
+        run: python scheduled_runs/generate_album_cache.py
 
       - name: ✅ Commit & push updated cache
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/cached_top_albums.json
-          git commit -m "🔄 Auto-update album cache"
+          git commit -m "🔄 Auto-update top album cache"
           git push
