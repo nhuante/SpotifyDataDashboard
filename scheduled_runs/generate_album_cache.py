@@ -27,8 +27,9 @@ SERVICE_ACCOUNT_FILE = "..\data\service-account-key.json"
 SHEET_QUERY = "Test_SpotifyData"  # Matches name of all IFTTT sheets
 
 # get client id and secret from secret file 
-secret_file = open("my_spotify_credentials.txt", "r")
-secret_file_rows = secret_file.readlines()
+# secret_file = open("my_spotify_credentials.txt", "r")
+# secret_file_rows = secret_file.readlines()
+
 # my spotify api keys
 SPOTIPY_CLIENT_ID = os.environ["SPOTIPY_CLIENT_ID"]
 SPOTIPY_CLIENT_SECRET = os.environ["SPOTIPY_CLIENT_SECRET"]
