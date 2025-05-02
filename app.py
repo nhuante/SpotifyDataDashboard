@@ -573,7 +573,9 @@ def server(input, output, session):
             return ui.p("No album data cache was found. Hmm...Better contact Nat.")
         # open and load in JSON values 
         with open(cache_file, "r") as file:
-            top_albums = json.load(file)
+            data = json.load(file)
+            top_albums = data.get("albums", [])
+            last_updated = data.get("last_updated", "Unknown")
         # if empty JSON file
         if not top_albums:
             return ui.p("No albums found in the cache. Weird! Contact Nat for this one.")
@@ -596,6 +598,7 @@ def server(input, output, session):
             <div style="text-align:center; padding:15px;">
                 <h4 style="color:#6c5ce7;">Top Albums of {selected_year}</h4>
                 {album_html}
+                <p style="font-size:13px; color:#636e72;">Last updated: {last_updated}</p>
             </div>
             """)
 

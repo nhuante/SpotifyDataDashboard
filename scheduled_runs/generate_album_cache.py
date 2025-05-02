@@ -8,6 +8,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import json
 import time
 import os
+from datetime import datetime
 
 ''' THIS FILE WILL BE RAN LOCALLY AT A SCHEDULED TIME TO UPDATE THE CACHED TOP ALBUMS. 
     WHEN ANYONE ACCESSES THE DEPLOYED SITE, IT SHOULD REFERENCE THESE CACHED VALUES TO 
@@ -144,7 +145,13 @@ final = [album_info_map[name] for name, _ in top_albums]
 
 # === write this info to the top albums cache ===
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+cache_data = {
+    "last_updated": datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'),
+    "albums": final
+}
 with open(OUTPUT_FILE, 'w') as f:
-    json.dump(final, f, indent=2)
+    json.dump(cache_data, f, indent=2)
+# with open(OUTPUT_FILE, 'w') as f:
+#     json.dump(final, f, indent=2)
 
 print(f"✅ Cached top albums saved to {OUTPUT_FILE}")
