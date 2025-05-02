@@ -14,6 +14,11 @@ import os
     LOOKS AT YOUR REDIRECT URL SO IT MATTERS WHERE THE REQUEST IS COMING FROM - HENCE WHY 
     IT NEEDS TO HAPPEN LOCALLY ON MY COMPUTER)'''
 
+''' EDIT: AS OF 5/1/25
+    THIS FILE WILL BE EXECUTED ON AN AUTOMATED SCHEDULE USING GITHUB ACTIONS
+    MY CREDENTIALS ARE STORED AS GITHUB SECRETS, SO EVERY X NUMBER OF DAYS, THIS 
+    SCHEDULE WILL 1. CACHE UPDATES 2. GIT PUSH 3. SHINY REDEPLOYEMENT'''
+
 # === config stuff ===
 # for cached top albums 
 YEAR = 2025
@@ -25,9 +30,12 @@ SHEET_QUERY = "Test_SpotifyData"  # Matches name of all IFTTT sheets
 secret_file = open("my_spotify_credentials.txt", "r")
 secret_file_rows = secret_file.readlines()
 # my spotify api keys
-SPOTIPY_CLIENT_ID = secret_file_rows[0]
-SPOTIPY_CLIENT_SECRET = secret_file_rows[1]
-SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8000/"
+SPOTIPY_CLIENT_ID = os.environ["SPOTIPY_CLIENT_ID"]
+SPOTIPY_CLIENT_SECRET = os.environ["SPOTIPY_CLIENT_SECRET"]
+SPOTIPY_REDIRECT_URI = os.environ["SPOTIPY_REDIRECT_URI"]
+# scope = "user-top-read"
+
+
 
 # load all of the ifttt logged spotify sheet from my google drive (uses a service account with view permissions 
 # to access instead of my own google account)
@@ -80,7 +88,10 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=SPOTIPY_CLIENT_ID,
     client_secret=SPOTIPY_CLIENT_SECRET,
     redirect_uri=SPOTIPY_REDIRECT_URI,
-    scope="user-read-private"
+    scope="user-read-private", 
+    open_browser=False, 
+    show_dialog=False, 
+    cache_path=".cache"
 ))
 
 # gets the album info using the spotify api
