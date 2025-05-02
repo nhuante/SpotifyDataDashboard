@@ -3,7 +3,8 @@ from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 import pandas as pd
 import spotipy
-from spotipy.oauth2 import SpotifyOAuth
+# from spotipy.oauth2 import SpotifyOAuth
+from spotipy.oauth2 import SpotifyClientCredentials
 import json
 import time
 import os
@@ -85,14 +86,9 @@ def load_spotify_data_from_google() -> pd.DataFrame:
     return all_data
 
 # my personal spotify authentication (why this needs to happen locally bro)
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=SPOTIPY_CLIENT_ID,
-    client_secret=SPOTIPY_CLIENT_SECRET,
-    redirect_uri=SPOTIPY_REDIRECT_URI,
-    scope="user-read-private", 
-    open_browser=False, 
-    show_dialog=False, 
-    cache_path=".cache"
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
+    client_id=os.environ["SPOTIPY_CLIENT_ID"],
+    client_secret=os.environ["SPOTIPY_CLIENT_SECRET"]
 ))
 
 # gets the album info using the spotify api
