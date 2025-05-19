@@ -1,15 +1,15 @@
 {
-  "last_updated": "2025-05-16 05:39 AM PDT PCT",
+  "last_updated": "2025-05-19 05:41 AM PDT PCT",
   "albums": [
-    {
-      "album_name": "Everything To Everyone",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2737251a75664414e04757eafe7",
-      "album_url": "https://open.spotify.com/album/4Kk5hoolfW8UN6cTSo5fXJ"
-    },
     {
       "album_name": "HIT ME HARD AND SOFT",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
       "album_url": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n"
+    },
+    {
+      "album_name": "Everything To Everyone",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2737251a75664414e04757eafe7",
+      "album_url": "https://open.spotify.com/album/4Kk5hoolfW8UN6cTSo5fXJ"
     },
     {
       "album_name": "Snow Angel",
@@ -27,9 +27,9 @@
       "album_url": "https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp"
     },
     {
-      "album_name": "SOS",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2730c471c36970b9406233842a5",
-      "album_url": "https://open.spotify.com/album/1nrVofqDRs7cpWXJ49qTnP"
+      "album_name": "ESQUINAS",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273a4c33caede9bd0868ad1f04d",
+      "album_url": "https://open.spotify.com/album/34Kj1LPZ7xhlskIb9qD6D6"
     }
   ]
 }
