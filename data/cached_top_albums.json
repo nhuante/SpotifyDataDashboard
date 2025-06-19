@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-16 05:42 AM PDT PCT",
+  "last_updated": "2025-06-19 05:41 AM PDT PCT",
   "albums": [
     {
       "album_name": "HIT ME HARD AND SOFT",
@@ -7,14 +7,19 @@
       "album_url": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n"
     },
     {
+      "album_name": "Snow Angel",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27308688d64d1b26bbee0e87857",
+      "album_url": "https://open.spotify.com/album/3RqO05jxT9YYgNtMdQmo8Z"
+    },
+    {
       "album_name": "My 21st Century Blues",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
       "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
     },
     {
-      "album_name": "Snow Angel",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27308688d64d1b26bbee0e87857",
-      "album_url": "https://open.spotify.com/album/3RqO05jxT9YYgNtMdQmo8Z"
+      "album_name": "Happier Than Ever",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e",
+      "album_url": "https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp"
     },
     {
       "album_name": "Everything To Everyone",
@@ -25,11 +30,6 @@
       "album_name": "MA\u00d1ANA SER\u00c1 BONITO",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335",
       "album_url": "https://open.spotify.com/album/4kS7bSuU0Jm9LYMosFU2x5"
-    },
-    {
-      "album_name": "Happier Than Ever",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e",
-      "album_url": "https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp"
     }
   ]
 }
