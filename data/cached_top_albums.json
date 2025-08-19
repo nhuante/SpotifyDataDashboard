@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-16 05:38 AM PDT PCT",
+  "last_updated": "2025-08-19 05:41 AM PDT PCT",
   "albums": [
     {
       "album_name": "HIT ME HARD AND SOFT",
@@ -12,11 +12,6 @@
       "album_url": "https://open.spotify.com/album/4kS7bSuU0Jm9LYMosFU2x5"
     },
     {
-      "album_name": "My 21st Century Blues",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
-      "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
-    },
-    {
       "album_name": "Snow Angel",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27308688d64d1b26bbee0e87857",
       "album_url": "https://open.spotify.com/album/3RqO05jxT9YYgNtMdQmo8Z"
@@ -25,6 +20,11 @@
       "album_name": "Everything To Everyone",
       "album_image": "https://i.scdn.co/image/ab67616d0000b2737251a75664414e04757eafe7",
       "album_url": "https://open.spotify.com/album/4Kk5hoolfW8UN6cTSo5fXJ"
+    },
+    {
+      "album_name": "My 21st Century Blues",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
+      "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
     },
     {
       "album_name": "Happier Than Ever",
