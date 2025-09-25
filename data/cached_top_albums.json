@@ -1,6 +1,11 @@
 {
-  "last_updated": "2025-09-22 05:40 AM PDT PCT",
+  "last_updated": "2025-09-25 05:41 AM PDT PCT",
   "albums": [
+    {
+      "album_name": "HIT ME HARD AND SOFT",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+      "album_url": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n"
+    },
     {
       "album_name": "MA\u00d1ANA SER\u00c1 BONITO",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335",
@@ -17,19 +22,14 @@
       "album_url": "https://open.spotify.com/album/4Kk5hoolfW8UN6cTSo5fXJ"
     },
     {
-      "album_name": "HIT ME HARD AND SOFT",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
-      "album_url": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n"
+      "album_name": "BITE ME",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2731f22a0d14fbba8dd80b186a4",
+      "album_url": "https://open.spotify.com/album/6ULnaZahd0zTGVUBVQO6mN"
     },
     {
       "album_name": "My 21st Century Blues",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
       "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
-    },
-    {
-      "album_name": "BITE ME",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2731f22a0d14fbba8dd80b186a4",
-      "album_url": "https://open.spotify.com/album/6ULnaZahd0zTGVUBVQO6mN"
     }
   ]
 }
