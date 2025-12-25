@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-22 04:44 AM PST PCT",
+  "last_updated": "2025-12-25 04:43 AM PST PCT",
   "albums": [
     {
       "album_name": "HIT ME HARD AND SOFT",
@@ -12,14 +12,14 @@
       "album_url": "https://open.spotify.com/album/4kS7bSuU0Jm9LYMosFU2x5"
     },
     {
-      "album_name": "Snow Angel",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27308688d64d1b26bbee0e87857",
-      "album_url": "https://open.spotify.com/album/3RqO05jxT9YYgNtMdQmo8Z"
-    },
-    {
       "album_name": "BITE ME",
       "album_image": "https://i.scdn.co/image/ab67616d0000b2731f22a0d14fbba8dd80b186a4",
       "album_url": "https://open.spotify.com/album/6ULnaZahd0zTGVUBVQO6mN"
+    },
+    {
+      "album_name": "Snow Angel",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27308688d64d1b26bbee0e87857",
+      "album_url": "https://open.spotify.com/album/3RqO05jxT9YYgNtMdQmo8Z"
     },
     {
       "album_name": "Everything To Everyone",
