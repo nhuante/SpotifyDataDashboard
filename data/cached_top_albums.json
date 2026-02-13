@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11 09:28 PM PST PCT",
+  "last_updated": "2026-02-13 05:02 AM PST PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -7,14 +7,14 @@
       "album_url": "https://open.spotify.com/album/34Kj1LPZ7xhlskIb9qD6D6"
     },
     {
-      "album_name": "The Art of Loving",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
-      "album_url": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
-    },
-    {
       "album_name": "ENCUENTROS",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273dbfbee12776b67e143bf8bcf",
       "album_url": "https://open.spotify.com/album/6Q2RSXigUcxzMKHzVYiyHw"
+    },
+    {
+      "album_name": "The Art of Loving",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
+      "album_url": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
     },
     {
       "album_name": "Un Verano Sin Ti",
