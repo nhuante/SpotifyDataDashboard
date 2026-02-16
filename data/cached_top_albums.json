@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13 05:02 AM PST PCT",
+  "last_updated": "2026-02-16 05:05 AM PST PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -7,14 +7,14 @@
       "album_url": "https://open.spotify.com/album/34Kj1LPZ7xhlskIb9qD6D6"
     },
     {
-      "album_name": "ENCUENTROS",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273dbfbee12776b67e143bf8bcf",
-      "album_url": "https://open.spotify.com/album/6Q2RSXigUcxzMKHzVYiyHw"
-    },
-    {
       "album_name": "The Art of Loving",
       "album_image": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
       "album_url": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
+    },
+    {
+      "album_name": "ENCUENTROS",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273dbfbee12776b67e143bf8bcf",
+      "album_url": "https://open.spotify.com/album/6Q2RSXigUcxzMKHzVYiyHw"
     },
     {
       "album_name": "Un Verano Sin Ti",
@@ -22,14 +22,14 @@
       "album_url": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5"
     },
     {
+      "album_name": "MA\u00d1ANA SER\u00c1 BONITO",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335",
+      "album_url": "https://open.spotify.com/album/4kS7bSuU0Jm9LYMosFU2x5"
+    },
+    {
       "album_name": "MALA SANTA",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
       "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
-    },
-    {
-      "album_name": "My 21st Century Blues",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
-      "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
     }
   ]
 }
