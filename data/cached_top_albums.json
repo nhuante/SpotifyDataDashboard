@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19 05:08 AM PST PCT",
+  "last_updated": "2026-02-22 04:52 AM PST PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -12,14 +12,14 @@
       "album_url": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
     },
     {
-      "album_name": "MALA SANTA",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
-      "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
-    },
-    {
       "album_name": "Un Verano Sin Ti",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
       "album_url": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5"
+    },
+    {
+      "album_name": "locket",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27339d289f01acf9f31ed09addc",
+      "album_url": "https://open.spotify.com/album/766kQKYQvONQk339t5payy"
     },
     {
       "album_name": "ENCUENTROS",
@@ -27,9 +27,9 @@
       "album_url": "https://open.spotify.com/album/6Q2RSXigUcxzMKHzVYiyHw"
     },
     {
-      "album_name": "My 21st Century Blues",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
-      "album_url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
+      "album_name": "MALA SANTA",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
+      "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
     }
   ]
 }
