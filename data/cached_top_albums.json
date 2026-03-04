@@ -1,15 +1,10 @@
 {
-  "last_updated": "2026-03-01 04:51 AM PST PCT",
+  "last_updated": "2026-03-04 04:58 AM PST PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273685fbf774d15a5b59d79d50b",
       "album_url": "https://open.spotify.com/album/34Kj1LPZ7xhlskIb9qD6D6"
-    },
-    {
-      "album_name": "MALA SANTA",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
-      "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
     },
     {
       "album_name": "The Art of Loving",
@@ -22,14 +17,19 @@
       "album_url": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5"
     },
     {
+      "album_name": "MALA SANTA",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
+      "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
+    },
+    {
+      "album_name": "Golden",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273a676aa01533e6cf5c40b99b6",
+      "album_url": "https://open.spotify.com/album/6bm9EpUNvQ9xMglBJGRmgS"
+    },
+    {
       "album_name": "F\u00f3rmula, Vol. 2 (Deluxe Edition)",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273e0e4b48b060715c9aa7fca18",
       "album_url": "https://open.spotify.com/album/17HsiXfqKUPoTP6Y5ebs1L"
-    },
-    {
-      "album_name": "YHLQMDLG",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273548f7ec52da7313de0c5e4a0",
-      "album_url": "https://open.spotify.com/album/5lJqux7orBlA1QzyiBGti1"
     }
   ]
 }
