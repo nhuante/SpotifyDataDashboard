@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07 04:50 AM PST PCT",
+  "last_updated": "2026-03-10 06:03 AM PDT PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -12,24 +12,24 @@
       "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
     },
     {
+      "album_name": "MA\u00d1ANA SER\u00c1 BONITO",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27382de1ca074ae63cb18fce335",
+      "album_url": "https://open.spotify.com/album/4kS7bSuU0Jm9LYMosFU2x5"
+    },
+    {
       "album_name": "The Art of Loving",
       "album_image": "https://i.scdn.co/image/ab67616d0000b2739a336bfb6d40bbd90a507417",
       "album_url": "https://open.spotify.com/album/0l8zYqoUeBYg47Gmevq9HZ"
     },
     {
-      "album_name": "locket",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27339d289f01acf9f31ed09addc",
-      "album_url": "https://open.spotify.com/album/766kQKYQvONQk339t5payy"
+      "album_name": "F\u00f3rmula, Vol. 2 (Deluxe Edition)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273e0e4b48b060715c9aa7fca18",
+      "album_url": "https://open.spotify.com/album/17HsiXfqKUPoTP6Y5ebs1L"
     },
     {
       "album_name": "Un Verano Sin Ti",
       "album_image": "https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
       "album_url": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5"
-    },
-    {
-      "album_name": "Golden",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273a676aa01533e6cf5c40b99b6",
-      "album_url": "https://open.spotify.com/album/6bm9EpUNvQ9xMglBJGRmgS"
     }
   ]
 }
