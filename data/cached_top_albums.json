@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16 05:30 AM PDT PCT",
+  "last_updated": "2026-04-19 05:16 AM PDT PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -22,14 +22,14 @@
       "album_url": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5"
     },
     {
-      "album_name": "Tropicoqueta",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2736c0294796e2ee5cf87a47b5f",
-      "album_url": "https://open.spotify.com/album/0yY0fT7zibMEffhBJD9Nab"
-    },
-    {
       "album_name": "MALA SANTA",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273d7ce6f9b0a15181635a933d9",
       "album_url": "https://open.spotify.com/album/13MHW8hoLFjX7SaVEVmj3X"
+    },
+    {
+      "album_name": "Golden",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273a676aa01533e6cf5c40b99b6",
+      "album_url": "https://open.spotify.com/album/6bm9EpUNvQ9xMglBJGRmgS"
     }
   ]
 }
