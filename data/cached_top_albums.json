@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04 06:12 AM PDT PCT",
+  "last_updated": "2026-06-07 05:38 AM PDT PCT",
   "albums": [
     {
       "album_name": "ESQUINAS",
@@ -22,14 +22,14 @@
       "album_url": "https://open.spotify.com/album/0yY0fT7zibMEffhBJD9Nab"
     },
     {
-      "album_name": "La Vida Era M\u00e1s Corta",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273844283dba279ee545aafb022",
-      "album_url": "https://open.spotify.com/album/0sQR1p7NyAUqMPmWdZ6UBd"
-    },
-    {
       "album_name": "BORONDO",
       "album_image": "https://i.scdn.co/image/ab67616d0000b2732feb67a486bcf117e7fb15b0",
       "album_url": "https://open.spotify.com/album/4xMNn5AFdmBIYiXRbt5YH4"
+    },
+    {
+      "album_name": "111",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27398ee8fad7a30ff328b97d874",
+      "album_url": "https://open.spotify.com/album/338cbfABt3duRORfvNeqLT"
     }
   ]
 }
