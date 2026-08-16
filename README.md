@@ -1,6 +1,10 @@
 # SpotifyDataDashboard
 Deploys a website which displays a dashboard filled with stats from my personal Spotify listening history. 
 
+> [!WARNING]
+> **Website Temporarily Unavailable**
+>
+> This website is currently down and does not reflect the latest information due to unresolved migration issues with a new GitHub account. It will be restored and updated soon with improved categories, content, and visuals.
 
 Think of this project as my own personal version of Spotify Wrapped, except I get to see my monthly progress and customize which stats I want to see. The website automatically updates as well, so I simply have to look up the website to see my (mostly) updated spotify data. 
 
